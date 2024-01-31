@@ -5,7 +5,7 @@ Simple go code to read from and write to a serial TTY.
 ## Usage
 
 ```bash
-./srialio -h
+❯❯❯ ./srialio -h
 Usage of srialio:
       --tty string         Serial TTY device (e.g., /dev/ttyUSB0)
   -o, --operation string   Operation: read or write
@@ -18,4 +18,9 @@ Usage of srialio:
 Examples:
     srialio --tty /dev/cu.usbmodem14301 -o write -f 'serial-input.txt'  --debug
     srialio --tty /dev/cu.usbmodem14301 -o read -b 115200
+```
+
+## Install
+```bash
+❯❯❯ go install github.com/zkvL/srialio@latest
 ```
