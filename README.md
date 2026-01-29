@@ -2,6 +2,17 @@
 
 Simple go code to read from and write to a serial TTY.
 
+> ## No further support for this one due to more advanced alternatives
+>
+> **Great news!** The skills functionality first brought to OpenCode by this plugin is now **built into OpenCode** as of v1.0.190.
+>
+> This tool was used to understand and interact with serial communications but more robust solutions exist to that purpose:
+>
+> - [TIO](https://github.com/tio/tio) - A serial device I/O tool
+>
+> [![DEPRECATED](https://img.shields.io/badge/STATUS-DEPRECATED-red.svg)]()
+> [![License: GNU General Public License v3.0](https://img.shields.io/badge/License-GNU-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+
 ## Usage
 
 ```bash
@@ -24,3 +35,4 @@ Examples:
 ```bash
 ❯❯❯ go install github.com/zkvL/srialio@latest
 ```
+
